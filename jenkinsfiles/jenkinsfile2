@@ -1,0 +1,22 @@
+pipeline{
+    agent any
+    environment{
+        DEPLOY_TO = 'production'
+    }
+    stages{
+        stage('deploy to dev'){
+            
+            steps{
+                echo 'deploying to master dev'
+            }
+        }
+        stage('deploy to prod'){
+            when{
+                branch 'branch1'
+            }
+            steps{
+                echo "deploying to ${DEPLOY_TO}"
+            }
+        }
+    }
+}

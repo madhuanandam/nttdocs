@@ -1,0 +1,39 @@
+---
+
+- name: This play book will install the necessary softwares required once VM is configured
+  host: new_servers 
+  become: yes
+  become_user: root
+  vars:
+    - git_service: git
+    - httpd
+  tasks:
+    - name: This will install the git 
+      yum:
+        name: "{{ git_service }}"
+        state: present
+
+    - name: Start the Git Service
+      service:
+        name: git
+        state: started  
+
+    - name: This will install httpd
+      yum:
+        name: httpd
+        state: present  
+
+    - name: Start the httpd service
+      service:
+        name: httpd
+        state: started
+
+    - name: Install the vsftpd service
+      yum:
+        name: vsftpd
+        state: present
+
+    - name: Start the vsftpd service
+      service:
+        name: vsftpd
+        state: started   

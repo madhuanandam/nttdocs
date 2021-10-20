@@ -1,0 +1,23 @@
+1. Linux
+2. Docker
+3. Git
+4. Ansible
+5. Devops
+
+
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-1.amzn2.0.1.x86_64
+
+55063bbf4adf4f818ea7912d9a52844c
+
+5-8 years of working in DevOps role supporting infrastructure
+Hands-on software development and operation of Build, Continuous Integration and Continuous Deployment
+Strong programming skills (Python, Shell, Ruby, Perl, etc.)
+Experience with source control management like Git, SVN, Bitbucket
+Experience with CI/CD tools like Jenkins, Docker, Kubernetes is a plus
+Good experience on Networking Technologies like Load balancer, ACL, Firewall, VIP, DNS
+Experience setting up real/virtual build and unit test lab environments (VM, appliance, network)
+Demonstrated ability to collaborate in a cross-functional environment, cross-site and cross-time zones
+Java or Go Lang a plus.
+System debugging knowledge
+SOS, Sar, perf tool, to debug kernel/system-level resource utilization.
+Strong verbal and written communication.
